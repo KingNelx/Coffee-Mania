@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+.coffee-bg {
+  background-image: url("./Images/coffee-bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.router > .app-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app-links{
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.home-h2{
+  text-align: center;
+  display: flex;
+  height: 70vh;
+  max-width: 40%;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  float: right;
+  margin-right: 10%;
+  letter-spacing: 0.5rem;
+}
+
+.coffe-image-row{
+  line-height: 10vh;
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+
+.coffe-image-col{
+  flex: 50%;
+}
+
+.coffe-image-col img{
+  width: 60%;
+  height: 40vh;
+  border-radius: 40%;
+}
+
+.coffee-qoutes{
+  text-align: center;
+  font-size: 25px;
+  line-height: 20vh;
+  font-weight: bold;
+}
+
+.menu-row{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.menu-col{
+  flex: 50%;
+}
+
+.menu-col img {
+  width: 50%;
+  height: 50vh;
+  border-radius: 50%;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+
+.our-menu{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-justify: newspaper;
+  margin-top: 5vh;
+}
+
+.menu{
+  text-align: center;
+  font-size: 25px;
+  line-height: 10vh;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.philosophy{
+  text-align: center;
+  font-size: 25px;
+  line-height: 10vh;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.our-philosophy{
+  text-align: center;
+  font-weight: bold;
+  text-justify: newspaper;
+  margin-top: 5vh;
+}
+.menu-bottom-bg{
+  background-image: url("./Images/coffee-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-top: 15vh;
+}
+
+.menu-price{
+  display: flex;
+  text-align: center;
+  padding: 30px;
+}
+
+.menu-price-col{
+  flex: 50%;
+}
+
+.menu-price-col div {
+  margin-top: 5vh;
+  line-height: 5vh;
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+.menu-price-col h1 {
+  text-decoration: underline;
+}
+
+.menu-price-col{
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3vh;
+}
+
+.menu-title{
+  text-align: center;
+  margin-top: 5vh
+}
+
+.philosophy-row{
+  display: flex;
+}
+
+.philosophy-col{
+  flex: 50%;
+}
+.philosophy img {
+  width: 50%;
+  height: 40vh;
+  border-radius: 50%;
+  margin-top: 10vh;
+}
+
+.philo-msg-bottom{
+  font-size: 20px;
+  margin-top: 15vh;
+  font-weight: normal;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.findus-msg{
+  text-align: center;
+  font-size: 25px;
+  line-height: 15vh;
+}
+.contact-preview{
+  display: flex;
+}
+
+.contact-col{
+  flex: 50%;
+  text-align: center;
+}
+
+.contact-col img{
+  width: 60%;
+  height: 40vh;
+  border-radius: 50%;
+  margin-top: 10vh;
+}
+
+.contact-col  p {
+  margin-top: 20px;
+  line-height: 5vh;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
