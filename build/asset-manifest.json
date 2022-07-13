@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8c9be4a.css",
+    "main.js": "/static/js/main.9a0b1bde.js",
+    "static/js/787.4539c236.chunk.js": "/static/js/787.4539c236.chunk.js",
+    "static/media/croissant-menu.jpg": "/static/media/croissant-menu.dd95cbacc66d11ae1300.jpg",
+    "static/media/coffee-1.jpg": "/static/media/coffee-1.f0b559dea5c28a457f38.jpg",
+    "static/media/cookie-menu.jpg": "/static/media/cookie-menu.3230d46e5fffaff1c5d0.jpg",
+    "static/media/coffee-bg.jpg": "/static/media/coffee-bg.d884d819d404ae47be8d.jpg",
+    "static/media/coffee-menu.jpg": "/static/media/coffee-menu.dd85c881e9f94c381742.jpg",
+    "static/media/roast.jpg": "/static/media/roast.fa47f0c8241c066ff631.jpg",
+    "static/media/coffee-4.jpg": "/static/media/coffee-4.89d8ab0b7d49f9ca1346.jpg",
+    "static/media/coffee-bg2.jpg": "/static/media/coffee-bg2.c50167dad1a17b838cd6.jpg",
+    "static/media/brewed.jpg": "/static/media/brewed.b92a8db662e6cc3cb540.jpg",
+    "static/media/coffee-2.jpg": "/static/media/coffee-2.9ebd95039006aa3b4297.jpg",
+    "static/media/farming.jpg": "/static/media/farming.61ccdb37bb2a42e9ff52.jpg",
+    "static/media/location.jpg": "/static/media/location.6938720bb46c2e496b63.jpg",
+    "static/media/coffee-3.jpg": "/static/media/coffee-3.36e50c1d7448c29c8015.jpg",
+    "static/media/contact.jpg": "/static/media/contact.71fe5878cd05bcfe5268.jpg",
+    "static/media/dessert-menu.jpg": "/static/media/dessert-menu.d7e01ffc442791ef0693.jpg",
+    "static/media/clock.jpg": "/static/media/clock.a7a77f8b773ec158540d.jpg",
+    "index.html": "/index.html",
+    "main.c8c9be4a.css.map": "/static/css/main.c8c9be4a.css.map",
+    "main.9a0b1bde.js.map": "/static/js/main.9a0b1bde.js.map",
+    "787.4539c236.chunk.js.map": "/static/js/787.4539c236.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8c9be4a.css",
+    "static/js/main.9a0b1bde.js"
+  ]
+}
