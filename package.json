@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "framer-motion": "^10.0.0",
-    "react-router": "^6.8.1"
+    "framer-motion": "^10.0.1",
+    "install": "^0.13.0"
   }
 }
