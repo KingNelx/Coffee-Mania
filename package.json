@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "framer-motion": "^10.0.1",
-    "install": "^0.13.0"
+    "framer-motion": "^10.0.1"
   }
 }
