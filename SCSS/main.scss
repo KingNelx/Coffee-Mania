@@ -1,15 +1,61 @@
 @import "main.css";
 
-nav{
-    p{
-        color: red;
-    }
+$flex: flex;
+$flex-e: flex-end;
+$flex-s: flex-start;
+$PX10: 10px;
+$PX20: 20px;
+$text-C: center;
+$bg-black: black;
+$c-white: white;
+$no-decor: none;
+$normal: normal;
 
-    h1{
-        color: green;
-    }
+body {
+    padding: 0;
+    margin: 0;
+}
 
-    h2{
-        color: blue;
+@media screen and (max-width: 576px) {
+    .nav-header {
+        background-color: $bg-black;
+        display: $flex;
+        justify-content: $flex-e;
+
+        li {
+            list-style: $no-decor;
+            margin: $PX10;
+            padding: $PX10;
+        }
+
+        a {
+            text-decoration: $no-decor;
+            color: $c-white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for tablets */
+@media screen and (min-width: 576px) and (max-width: 768px) {}
+
+/* Styles for small laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS styles here */
+}
+
+/* Styles for desktops and larger laptops */
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Styles for large desktops */
+@media screen and (min-width: 1200px) {}
