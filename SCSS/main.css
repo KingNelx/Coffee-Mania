@@ -1,45 +1,30 @@
 @import url(c:\CODES\Coffee-Mania\SCSS\main.css);
-body {
+* {
   padding: 0;
   margin: 0;
 }
 
-@media screen and (max-width: 576px) {
-  .nav-header {
-    background-color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .nav-header li {
-    list-style: none;
-    margin: 10px;
-    padding: 10px;
-  }
-  .nav-header a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .parallax {
-    background-image: url("../Images/parallax.jpg");
-    height: 80vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.nav-header {
+  background-color: black;
 }
 
-/* Styles for tablets */
-/* Styles for small laptops */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  /* Your CSS styles here */
+.nav-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px;
 }
 
-/* Styles for desktops and larger laptops */
-/* Styles for large desktops */
+.nav-header li {
+  list-style: none;
+}
+
+.nav-header a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

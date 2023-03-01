@@ -1,71 +1,27 @@
 @import "main.css";
 
-$flex: flex;
-$flex-e: flex-end;
-$flex-s: flex-start;
-$PX10: 10px;
-$PX20: 20px;
-$text-C: center;
-$bg-black: black;
-$c-white: white;
-$no-decor: none;
-$normal: normal;
-
-body {
+* {
     padding: 0;
     margin: 0;
 }
 
-@media screen and (max-width: 576px) {
-    .nav-header {
-        background-color: $bg-black;
-        display: $flex;
-        justify-content: $flex-e;
+.nav-header {
+    background-color: black;
 
-        li {
-            list-style: $no-decor;
-            margin: $PX10;
-            padding: $PX10;
-        }
-
-        a {
-            text-decoration: $no-decor;
-            color: $c-white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
     }
 
-    .parallax {
-        background-image: url('../Images/parallax.jpg');
-        height: 80vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    li {
+        list-style: none;
     }
 
+    a {
+        margin: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-/* Styles for tablets */
-@media screen and (min-width: 576px) and (max-width: 768px) {}
-
-/* Styles for small laptops */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    /* Your CSS styles here */
-}
-
-/* Styles for desktops and larger laptops */
-@media screen and (min-width: 992px) and (max-width: 1200px) {}
-
-/* Styles for large desktops */
-@media screen and (min-width: 1200px) {}
