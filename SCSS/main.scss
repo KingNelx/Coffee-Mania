@@ -6,7 +6,7 @@
 }
 
 .nav-header {
-    background-color: black;
+    background-color: gray;
 
     ul {
         display: flex;
@@ -23,5 +23,48 @@
         text-decoration: none;
         color: white;
     }
-    
+
+}
+
+
+.parallax {
+    background-image: url("../Images/coffeeh.jpg");
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-header {
+    margin-top: 10vh;
+
+    .section-title h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section-title p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 10vh;
+    }
+}
+
+.col {
+    display: flex;
+    margin-top: 10vh;
+
+    .row {
+        text-align: center;
+        flex: 1;
+    }
+
+    .img-row img{
+        width: 80%;
+        height: 60vh;
+        border-radius: 80%;
+    }
 }
